@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Maiden+Orange&display=swap");
+body {
+    font-family: 'Maiden Orange';
+}
+
+@media screen and (max-width:1024px) {
+    * {
+        font-size: calc(1vw + 1vh + .5vmin);
+    }
+}
+
+@media screen and (max-width:450px) {
+    .form-cont input {
+        width: 100%;
+        margin-top: 10px;
+    } 
+    body{
+        overflow-x: hidden;
+    }
+}
